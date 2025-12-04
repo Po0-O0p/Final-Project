@@ -148,14 +148,14 @@ j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j
 NAME Rocks
 ITM 4 2,14
 EXT 15,6 5 0,6 FX slide_r
-EXT 15,7 5 0,7 FX slide_r
-EXT 15,15 5 0,15 FX slide_r
-EXT 15,14 5 0,14 FX slide_r
-EXT 15,13 5 0,13 FX slide_r
-EXT 15,12 5 0,12 FX slide_r
-EXT 15,11 5 0,11 FX slide_r
-EXT 15,10 5 0,10 FX slide_r
-EXT 15,9 5 0,9 FX slide_r
+EXT 15,7 5 0,7 FX slide_r DLG e
+EXT 15,15 5 0,15 FX slide_r DLG e
+EXT 15,14 5 0,14 FX slide_r DLG e
+EXT 15,13 5 0,13 FX slide_r DLG e
+EXT 15,12 5 0,12 FX slide_r DLG e
+EXT 15,11 5 0,11 FX slide_r DLG e
+EXT 15,10 5 0,10 FX slide_r DLG e
+EXT 15,9 5 0,9 FX slide_r DLG e
 EXT 15,8 5 0,8 FX slide_r
 PAL 3
 
@@ -202,10 +202,10 @@ j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j
 j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j
 j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j
 j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j
-j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j
-j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j
-j,j,j,j,j,j,j,j,k,k,k,k,j,j,j,j
-k,j,j,j,k,k,k,k,0,0,0,0,k,j,j,j
+k,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j
+0,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j
+0,j,j,j,j,j,j,j,k,k,k,k,j,j,j,j
+0,j,j,j,k,k,k,k,0,0,0,0,k,j,j,j
 0,k,k,k,0,0,0,0,0,0,0,0,0,k,j,j
 0,0,0,0,0,0,0,0,0,0,0,0,0,0,k,k
 0,0,0,i,i,i,i,i,i,i,i,i,i,0,0,0
@@ -223,7 +223,11 @@ EXT 0,12 3 15,12 FX slide_l
 EXT 0,11 3 15,11 FX slide_l
 EXT 0,10 3 15,10 FX slide_l
 EXT 0,9 3 15,9 FX slide_l
-EXT 0,8 3 15,8 FX slide_l
+EXT 0,8 3 15,8 FX slide_l DLG e
+EXT 6,15 6 6,8 FX slide_d DLG d
+EXT 7,15 6 7,8 FX slide_d DLG d
+EXT 8,15 6 8,8 FX slide_d DLG d
+EXT 9,15 6 9,8 FX slide_d DLG d
 PAL 3
 
 ROOM 6
@@ -409,7 +413,7 @@ SPR A
 00111100
 01000010
 00000000
-POS 0 4,6
+POS 0 3,6
 BGC *
 
 SPR b
@@ -630,6 +634,21 @@ DLG c
 }
 """
 NAME Person dialog
+
+DLG d
+"""
+{
+  - {item "4"} ?
+    {property locked false}
+  - else ?
+    {property locked true}Cannot continue without *Rock*.
+}
+"""
+NAME locked exit 1
+
+DLG e
+HEY WHAT ARE YOU DOING UP THERE???{pg}DON'T YOU WORK HERE???? GET BACK TO WORK!
+NAME exit narration 1
 
 VAR Flyercount
 0
