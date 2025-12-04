@@ -23,8 +23,8 @@ NAME Golf Course
 PAL 1
 70,255,0
 168,117,88
+6,1,62
 3,0,62
-255,4,4
 77,169,255
 255,234,195
 245,244,254
@@ -37,9 +37,14 @@ PAL 2
 NAME Golf Course 2
 
 PAL 3
-65,70,84
+224,166,84
 103,103,125
-3,0,62
+6,1,62
+77,169,255
+255,4,4
+68,68,83
+77,169,255
+255,234,195
 NAME Rocks
 
 PAL 4
@@ -47,6 +52,12 @@ PAL 4
 245,244,254
 255,0,151
 NAME Start 2
+
+PAL 5
+224,166,84
+68,68,83
+6,1,62
+NAME Rocks 2
 
 ROOM 0
 0,0,a,a,a,a,a,a,a,a,a,a,a,a,0,0
@@ -118,23 +129,34 @@ PAL 0
 TUNE 2
 
 ROOM 3
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j
+j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j
+j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j
+k,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j
+0,k,k,k,k,k,k,k,k,k,k,k,k,j,j,j
+0,0,0,0,0,0,0,0,0,0,0,0,0,k,k,k
+i,i,i,0,0,0,0,0,0,0,0,0,0,0,0,0
+j,j,j,i,0,0,i,i,0,0,0,0,0,0,0,0
+j,j,j,j,i,i,j,j,i,0,0,0,0,0,0,0
+j,j,j,j,j,j,j,j,j,i,i,i,0,0,0,0
+j,j,j,j,j,j,j,j,j,j,j,j,i,0,0,0
+j,j,j,j,j,j,j,j,j,j,j,j,j,i,0,0
+j,j,j,j,j,j,j,j,j,j,j,j,j,j,i,0
+j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,i
+j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j
+j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j
 NAME Rocks
+ITM 4 2,14
+EXT 15,6 5 0,6 FX slide_r
+EXT 15,7 5 0,7 FX slide_r
+EXT 15,15 5 0,15 FX slide_r
+EXT 15,14 5 0,14 FX slide_r
+EXT 15,13 5 0,13 FX slide_r
+EXT 15,12 5 0,12 FX slide_r
+EXT 15,11 5 0,11 FX slide_r
+EXT 15,10 5 0,10 FX slide_r
+EXT 15,9 5 0,9 FX slide_r
+EXT 15,8 5 0,8 FX slide_r
 PAL 3
 
 ROOM 4
@@ -173,6 +195,56 @@ EXT 15,4 2 0,4 FX slide_r
 EXT 15,3 2 0,3 FX slide_r
 EXT 15,2 2 0,2 FX slide_r
 PAL 0
+
+ROOM 5
+j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j
+j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j
+j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j
+j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j
+j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j
+j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j
+j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j
+j,j,j,j,j,j,j,j,k,k,k,k,j,j,j,j
+k,j,j,j,k,k,k,k,0,0,0,0,k,j,j,j
+0,k,k,k,0,0,0,0,0,0,0,0,0,k,j,j
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,k,k
+0,0,0,i,i,i,i,i,i,i,i,i,i,0,0,0
+0,i,i,j,j,j,j,j,j,j,j,j,j,i,0,0
+i,j,j,j,j,j,j,j,j,j,j,j,j,j,i,i
+j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j
+j,j,j,j,j,j,l,l,l,l,j,j,j,j,j,j
+NAME Rocks 2
+EXT 0,7 3 15,7 FX slide_l
+EXT 0,6 3 15,6 FX slide_l
+EXT 0,15 3 15,15 FX slide_l
+EXT 0,14 3 15,14 FX slide_l
+EXT 0,13 3 15,13 FX slide_l
+EXT 0,12 3 15,12 FX slide_l
+EXT 0,11 3 15,11 FX slide_l
+EXT 0,10 3 15,10 FX slide_l
+EXT 0,9 3 15,9 FX slide_l
+EXT 0,8 3 15,8 FX slide_l
+PAL 3
+
+ROOM 6
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+NAME Sand
+PAL 3
 
 TIL a
 11111111
@@ -273,6 +345,52 @@ TIL h
 NAME Rocks
 COL 6
 
+TIL i
+00000000
+00000000
+00000000
+01110111
+11111111
+11111111
+11111111
+11111111
+NAME Mountain
+
+TIL j
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+NAME Mountain 2
+
+TIL k
+11111111
+11111111
+11111111
+11111111
+01100111
+00100010
+00000000
+00000000
+NAME Mountain 3
+WAL true
+
+TIL l
+00000000
+00000000
+01100000
+01100100
+01111110
+11111111
+11111111
+11111111
+NAME Sand Patch
+COL 7
+
 SPR A
 00000000
 00011000
@@ -313,7 +431,7 @@ SPR b
 00111100
 00100100
 NAME Person
-DLG 5
+DLG c
 POS 0 6,6
 COL 4
 BGC *
@@ -404,6 +522,16 @@ POS 2 13,15
 COL 8
 BGC *
 
+SPR g
+00000000
+00000000
+00011000
+00011000
+00011000
+00011000
+00000000
+00000000
+
 ITM 3
 00000000
 00001000
@@ -417,17 +545,19 @@ NAME Grass
 DLG 9
 COL 7
 
-DLG 5
-"""
-{Flyercount = Flyercount + 1}{
-  - Flyercount == 1 ?
-    You were handed a flyer{item "2" 1}{pg}You got{wvy} Flyer{/wvy}{pg}"{wvy}{rbw}TALENT SHOW TONIGHT!!!!!!{/rbw}{/wvy}
-    *staff cannot participate"
-  - else ?
-    No words were exchanged.
-}
-"""
-NAME Person dialog
+ITM 4
+00000000
+00000000
+00011000
+00111100
+01111110
+01111110
+01111110
+01111110
+NAME Rock
+DLG b
+COL 5
+BGC *
 
 DLG 6
 Hey why are you dancing around the golf course??
@@ -473,10 +603,33 @@ DLG a
     Hey, didn't you teach us golf?{pg}Yeah, why are you running across the field?
     Come play with us!!!
   - else ?
-    Come play with us!!!!!
+    Come play with us!!!
 }
 """
 NAME Child 2 dialog
+
+DLG b
+"""
+{Rockcount = Rockcount + 1}{
+  - Rockcount == 1 ?
+    You got {wvy}Rock{/wvy}
+  - else ?
+    ...
+}
+"""
+NAME Rock dialog
+
+DLG c
+"""
+{Flyercount = Flyercount + 1}{
+  - Flyercount == 1 ?
+    You were handed a flyer.{item "2" 1}{pg}You got {wvy}Flyer{/wvy}{pg}"{wvy}{rbw}TALENT SHOW TONIGHT!!!!!!{/rbw}{/wvy}
+    *staff cannot participate"
+  - else ?
+    No words were exchanged.
+}
+"""
+NAME Person dialog
 
 VAR Flyercount
 0
@@ -485,6 +638,9 @@ VAR Grasscount
 0
 
 VAR Childcount
+0
+
+VAR Rockcount
 0
 
 TUNE 1
