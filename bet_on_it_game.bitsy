@@ -18,11 +18,13 @@ PAL 0
 103,103,125
 135,255,132
 245,244,254
+168,117,88
+255,204,160
 NAME Golf Course
 
 PAL 1
 70,255,0
-168,117,88
+221,145,40
 6,1,62
 3,0,62
 77,169,255
@@ -50,7 +52,7 @@ NAME Rocks
 PAL 4
 135,255,132
 245,244,254
-255,0,151
+233,186,146
 NAME Start 2
 
 PAL 5
@@ -58,6 +60,28 @@ PAL 5
 68,68,83
 6,1,62
 NAME Rocks 2
+
+PAL 6
+106,255,105
+113,64,255
+3,0,62
+72,39,194
+NAME Water
+
+PAL 7
+37,220,255
+106,107,107
+3,0,62
+250,255,60
+249,255,2
+238,248,255
+NAME Ending
+
+PAL 8
+37,220,255
+249,255,2
+238,248,255
+NAME Ending 2
 
 ROOM 0
 0,0,a,a,a,a,a,a,a,a,a,a,a,a,0,0
@@ -126,7 +150,7 @@ EXT 0,4 4 15,4 FX slide_l
 EXT 0,3 4 15,3 FX slide_l
 EXT 0,2 4 15,2 FX slide_l
 PAL 0
-TUNE 2
+TUNE 3
 
 ROOM 3
 j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j
@@ -158,6 +182,7 @@ EXT 15,10 5 0,10 FX slide_r DLG e
 EXT 15,9 5 0,9 FX slide_r DLG e
 EXT 15,8 5 0,8 FX slide_r
 PAL 3
+TUNE 3
 
 ROOM 4
 d,d,d,0,0,0,0,0,0,0,0,0,0,d,d,d
@@ -195,6 +220,7 @@ EXT 15,4 2 0,4 FX slide_r
 EXT 15,3 2 0,3 FX slide_r
 EXT 15,2 2 0,2 FX slide_r
 PAL 0
+TUNE 3
 
 ROOM 5
 j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j
@@ -229,26 +255,181 @@ EXT 7,15 6 7,8 FX slide_d DLG d
 EXT 8,15 6 8,8 FX slide_d DLG d
 EXT 9,15 6 9,8 FX slide_d DLG d
 PAL 3
+TUNE 3
 
 ROOM 6
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n
+n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n
+n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n
+n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,n
+m,m,n,n,n,n,n,n,n,n,n,n,n,n,n,n
+0,0,m,m,m,n,n,n,n,n,n,n,n,n,n,m
+0,0,0,0,0,m,m,m,m,m,m,m,m,m,m,j
+0,0,0,j,j,j,j,j,j,j,j,j,j,j,j,j
+0,0,j,j,j,j,j,j,j,j,j,j,j,j,j,j
+0,0,j,j,j,j,j,j,j,j,j,j,j,j,j,j
+0,0,j,j,j,j,j,j,j,j,j,j,j,j,j,j
+0,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j
+0,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j
+j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j
+j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j
+j,j,j,j,j,j,j,j,j,j,j,j,j,j,j,j
 NAME Sand
-PAL 3
+ITM 5 9,9
+EXT 0,5 7 15,5 FX slide_l DLG l
+EXT 0,6 7 15,6 FX slide_l DLG l
+EXT 0,7 7 15,7 FX slide_l DLG l
+EXT 0,8 7 15,8 FX slide_l DLG l
+EXT 0,9 7 15,9 FX slide_l DLG l
+EXT 0,10 7 15,10 FX slide_l DLG l
+EXT 0,11 7 15,11 FX slide_l DLG l
+EXT 0,12 7 15,12 FX slide_l DLG l
+EXT 0,13 7 15,13 FX slide_l DLG l
+EXT 0,14 7 15,14 FX slide_l DLG l
+EXT 0,15 7 15,15 FX slide_l DLG l
+PAL 0
+TUNE 3
+
+ROOM 7
+d,d,d,d,d,d,0,0,0,0,0,0,0,0,0,0
+d,e,d,d,d,d,0,0,0,0,0,0,0,0,0,0
+d,d,d,d,d,d,0,0,0,0,0,0,0,0,0,0
+d,d,d,d,d,d,0,0,0,0,0,0,0,0,0,0
+d,d,d,d,d,0,0,0,0,0,0,0,0,0,0,0
+d,d,d,0,0,0,0,0,0,0,0,0,0,0,0,0
+o,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+o,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+o,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+o,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+o,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+o,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+o,0,d,d,d,d,d,d,d,d,0,0,0,0,0,0
+d,d,d,d,d,d,d,d,d,d,d,d,d,0,0,0
+d,d,d,d,e,d,d,d,d,e,d,d,d,d,0,0
+d,d,d,d,d,d,d,d,d,d,d,d,d,d,0,0
+NAME Golf Course 3
+EXT 0,6 8 15,6 FX slide_l
+EXT 0,7 8 15,7 FX slide_l
+EXT 0,8 8 15,8 FX slide_l
+EXT 0,9 8 15,9 FX slide_l
+EXT 0,10 8 15,10 FX slide_l
+EXT 0,11 8 15,11 FX slide_l
+EXT 0,12 8 15,12 FX slide_l
+PAL 0
+TUNE 3
+
+ROOM 8
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,p,q,q,q,o,0,0,0,0,0,0,0,0
+0,0,p,0,0,0,0,0,o,0,0,0,0,0,0,0
+0,p,0,0,0,0,0,0,0,o,0,0,0,0,0,0
+p,0,0,0,0,0,0,0,0,0,o,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,o,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,o,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,o,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,o,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,o
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,l,l,l,l,l,l,l,l,0,0,0,0,0
+NAME Hill
+ITM 6 6,2
+EXT 15,6 7 0,6 FX slide_r
+EXT 15,7 7 0,7 FX slide_r
+EXT 15,8 7 0,8 FX slide_r
+EXT 15,9 7 0,9 FX slide_r
+EXT 15,10 7 0,10 FX slide_r
+EXT 15,11 7 0,11 FX slide_r
+EXT 15,12 7 0,12 FX slide_r
+EXT 3,15 9 3,0 FX slide_d DLG o
+EXT 4,15 9 4,0 FX slide_d DLG o
+EXT 5,15 9 5,0 FX slide_d DLG o
+EXT 6,15 9 6,0 FX slide_d DLG o
+EXT 7,15 9 7,0 DLG o
+EXT 8,15 9 8,0 FX slide_d DLG o
+EXT 9,15 9 9,0 FX slide_d DLG o
+EXT 10,15 9 10,0 FX slide_d DLG o
+PAL 0
+TUNE 3
+
+ROOM 9
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+r,r,r,r,r,r,r,r,r,r,r,r,r,r,r,r
+a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
+a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
+a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
+a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
+a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
+a,a,a,a,a,a,a,a,a,a,a,a,a,a,a,a
+NAME Water
+EXT 0,0 b 15,0 FX slide_l DLG r
+EXT 0,1 b 15,1 FX slide_l DLG r
+EXT 0,2 b 15,2 FX slide_l DLG r
+EXT 0,3 b 15,3 FX slide_l DLG r
+EXT 0,4 b 15,4 FX slide_l DLG r
+EXT 0,5 b 15,5 FX slide_l DLG r
+EXT 0,6 b 15,6 FX slide_l DLG r
+EXT 0,7 b 15,7 FX slide_l DLG r
+EXT 0,8 b 15,8 FX slide_l DLG r
+PAL 6
+TUNE 4
+
+ROOM a
+t,0,0,0,0,0,0,0,0,t,0,0,s,s,s,s
+0,0,0,0,0,t,0,0,0,0,0,0,s,s,s,s
+0,t,0,0,0,0,0,0,0,0,0,0,s,s,s,s
+0,0,0,0,0,0,0,0,0,0,0,0,0,s,s,s
+0,0,0,0,0,0,0,t,0,0,0,0,0,0,s,s
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+i,i,i,i,i,0,0,0,0,0,0,0,t,0,0,0
+a,a,a,a,a,i,0,0,0,0,0,0,0,0,0,0
+a,a,a,a,a,a,i,0,0,0,0,0,0,0,0,0
+a,a,a,a,a,a,a,i,0,0,t,0,0,0,0,t
+a,a,a,a,a,a,a,a,i,0,0,0,0,0,0,0
+a,a,a,a,a,a,a,a,a,i,0,0,0,0,0,0
+a,a,a,a,a,a,a,a,a,a,i,0,0,0,0,0
+a,a,a,a,a,a,a,a,a,a,a,i,0,0,0,0
+a,a,a,a,a,a,a,a,a,a,a,a,i,0,0,0
+a,a,a,a,a,a,a,a,a,a,a,a,a,i,i,i
+NAME Ending
+ITM 7 2,6
+EXT 15,15 b 0,15 FX slide_r
+END m 2,5
+PAL 7
+TUNE 3
+
+ROOM b
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+u,u,u,u,u,u,u,u,0,0,0,0,0,0,0,0
+NAME Field
+EXT 0,15 a 15,15 FX slide_l
+PAL 0
+TUNE 3
 
 TIL a
 11111111
@@ -395,6 +576,115 @@ TIL l
 NAME Sand Patch
 COL 7
 
+TIL m
+11111111
+11111111
+11111111
+11111111
+01100111
+00100010
+00000000
+00000000
+NAME Mountain 4
+WAL true
+COL 6
+
+TIL n
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+NAME Mountain 5
+WAL true
+COL 6
+
+TIL o
+00000000
+11111000
+00001110
+00000011
+00000001
+00000001
+00000000
+00000000
+NAME Hill
+COL 7
+
+TIL p
+00000000
+00011111
+01110000
+11000000
+10000000
+10000000
+00000000
+00000000
+NAME Hill left
+COL 7
+
+TIL q
+00000000
+11111111
+00000000
+00000000
+00000000
+00000000
+00000000
+00000000
+NAME Hill Middle
+COL 7
+
+TIL r
+00000000
+00000000
+10001000
+11000111
+11111111
+11111111
+11111111
+11111111
+NAME Water
+
+TIL s
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+11111111
+NAME Sun
+COL 3
+
+TIL t
+00000000
+00000000
+01010100
+11111110
+11111111
+11111110
+01010100
+00000000
+NAME Cloud
+COL 5
+
+TIL u
+00000000
+00000000
+00000000
+01110111
+11111111
+11111111
+11111111
+11111111
+NAME Mountain 6
+COL 6
+
 SPR A
 00000000
 00011000
@@ -439,6 +729,7 @@ DLG c
 POS 0 6,6
 COL 4
 BGC *
+BLIP 3
 
 SPR c
 00000000
@@ -463,6 +754,7 @@ DLG 6
 POS 2 11,15
 COL 5
 BGC *
+BLIP 3
 
 SPR d
 00000000
@@ -487,6 +779,7 @@ DLG a
 POS 4 3,14
 COL 5
 BGC *
+BLIP 3
 
 SPR e
 00000000
@@ -511,6 +804,7 @@ DLG a
 POS 4 4,14
 COL 5
 BGC *
+BLIP 3
 
 SPR f
 00000000
@@ -522,19 +816,207 @@ SPR f
 00000000
 00000000
 NAME Golf ball
-POS 2 13,15
+POS 8 5,2
 COL 8
 BGC *
 
 SPR g
 00000000
+00111100
+00111100
+00111100
+00011000
+00011000
+00011000
+00011000
+>
+00111100
+00111100
+00111100
+00011000
+00011000
+00011000
+00011000
+00011000
+NAME Adult
+DLG s
+POS b 7,2
+COL 5
+BLIP 3
+
+SPR h
 00000000
+00000000
+01111110
+01111110
+01111110
 00011000
 00011000
+00011000
+NAME Sign
+DLG f
+POS 0 11,6
+COL 1
+
+SPR i
+00000000
+00000000
+01111110
+01111110
+01111110
+00011000
+00011000
+00011000
+NAME Sign 2
+DLG g
+POS 2 9,6
+COL 9
+
+SPR j
+00000000
+00000000
+01111110
+01111110
+01111110
+00011000
+00011000
+00011000
+NAME Sign 3
+DLG h
+POS 3 11,14
+COL 5
+BGC *
+
+SPR k
+00000000
+00000000
+01111110
+01111110
+01111110
+00011000
+00011000
+00011000
+NAME Sign 4
+DLG i
+POS 5 11,12
+COL 5
+BGC *
+
+SPR l
+00000000
+00000000
+01111110
+01111110
+01111110
+00011000
+00011000
+00011000
+NAME Sign 5
+DLG j
+POS 6 13,8
+COL 9
+BGC *
+
+SPR m
+00000000
+00000000
+01111110
+01111110
+01111110
+00011000
+00011000
+00011000
+NAME Sign 7
+DLG v
+POS b 11,2
+COL 9
+
+SPR n
+00100100
+00111100
+00011000
+01111110
+10011001
+00011000
+00011000
+00000000
+>
+00011000
+00011000
+10011001
+01111110
 00011000
 00011000
 00000000
 00000000
+NAME Reflection
+DLG q
+POS 9 7,10
+COL 3
+BGC *
+
+SPR o
+00000000
+00000000
+00000000
+00111100
+00111100
+00111100
+00011000
+00011000
+>
+00000000
+00000000
+00111100
+00111100
+00111100
+00011000
+00011000
+00011000
+NAME Child 4
+DLG t
+POS b 3,2
+COL 5
+BLIP 3
+
+SPR p
+00000000
+00000000
+00111100
+00111100
+00111100
+00011000
+00011000
+00011000
+>
+00000000
+00000000
+00000000
+00111100
+00111100
+00111100
+00011000
+00011000
+NAME Child 5
+DLG u
+POS b 6,2
+COL 5
+BLIP 3
+
+SPR q
+00000000
+00000000
+01111110
+01111110
+01111110
+00011000
+00011000
+00011000
+NAME Sign 6
+DLG n
+POS 7 11,5
+COL 9
+BGC *
 
 ITM 3
 00000000
@@ -548,6 +1030,7 @@ ITM 3
 NAME Grass
 DLG 9
 COL 7
+BLIP 2
 
 ITM 4
 00000000
@@ -562,6 +1045,59 @@ NAME Rock
 DLG b
 COL 5
 BGC *
+BLIP 2
+
+ITM 5
+00000010
+00100000
+00001000
+10000000
+01000010
+00001000
+00110010
+00000000
+NAME Sand
+DLG k
+COL 10
+BGC *
+BLIP 2
+
+ITM 6
+00011000
+00011000
+00011000
+00011000
+00011000
+00011000
+01111000
+01111000
+NAME Golf Club
+DLG p
+COL 6
+BLIP 2
+
+ITM 7
+00011000
+00111100
+00011000
+00000000
+00000000
+00000000
+00000000
+00000000
+>
+00000000
+00011000
+00111100
+00011000
+00000000
+00000000
+00000000
+00000000
+NAME End
+COL 3
+BGC *
+BLIP 1
 
 DLG 6
 Hey why are you dancing around the golf course??
@@ -650,6 +1186,115 @@ DLG e
 HEY WHAT ARE YOU DOING UP THERE???{pg}DON'T YOU WORK HERE???? GET BACK TO WORK!
 NAME exit narration 1
 
+DLG f
+GOLF COURSE - SOUTH
+NAME Sign dialog
+
+DLG g
+"""
+GOLF COURSE - WEST
+ROCKS - EAST
+"""
+NAME Sign 2 dialog
+
+DLG h
+ROCKS - EAST
+NAME Sign 3 dialog
+
+DLG i
+SAND - SOUTH
+NAME Sign 4 dialog
+
+DLG j
+GOLF COURSE - WEST
+NAME Sign 5 dialog
+
+DLG k
+"""
+{Sandcount = Sandcount + 1}{
+  - Sandcount == 1 ?
+    You got {wvy}Sand{/wvy}
+  - else ?
+    ...
+}
+"""
+NAME Sand dialog
+
+DLG l
+"""
+{
+  - {item "5"} ?
+    {property locked false}
+  - else ?
+    {property locked true}Cannot continue without *Sand*.
+}
+"""
+NAME Sand Exit
+
+DLG m
+THE END
+NAME ending 1
+
+DLG n
+GOLF HILL - WEST
+NAME sprite q dialog
+
+DLG o
+"""
+{
+  - {item "6"} ?
+    {property locked false}
+  - else ?
+    {property locked true}Cannot continue without *Golf Club*.
+}
+"""
+NAME Hill Exit
+
+DLG p
+You got {wvy}Golf Club{/wvy}
+NAME Golf Club dialog
+
+DLG q
+"""
+It's no good at all to see yourself and not recognize your face.{pg}The answers are all inside of me. All I got to do is believe.{pg}{Reflectioncount = Reflectioncount + 1}{
+  - Reflectioncount == 1 ?
+    You got {wvy}Water Droplets{/wvy}
+  - else ?
+
+}
+"""
+NAME Reflection dialog
+
+DLG r
+"""
+{
+  - Reflectioncount == 1 ?
+    {property locked false}
+  - else ?
+    {property locked true}Cannot continue without *Water Droplets*.
+}
+"""
+NAME Water Exit
+
+DLG s
+I don't know where you're running to but go on kid.
+NAME Adult dialog
+
+DLG t
+GO TROY!!!!!!!!!!!
+NAME Child 4 dialog
+
+DLG u
+"""
+RUN FOREST RUN!
+My dad said that's a movie reference.
+"""
+NAME Child 5 dialog
+
+DLG v
+TOP OF MOUNTAIN - WEST
+NAME Sign 7 dialog
+
 VAR Flyercount
 0
 
@@ -662,22 +1307,28 @@ VAR Childcount
 VAR Rockcount
 0
 
+VAR Sandcount
+0
+
+VAR Reflectioncount
+0
+
 TUNE 1
-3d,0,0,0,3d5,0,0,0,3l,0,0,0,3s,0,0,0
-16d2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
->
-4l,0,0,0,s,0,3l,0,0,0,2s,0,2m,0,2r,0
-16m2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
->
 3d,0,0,0,3d5,0,0,0,3l,0,0,0,3s,0,0,0
 16l2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 >
 3l,0,0,0,s,0,4m,0,0,0,4r,0,0,0,0,0
 16s2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+>
+3d,0,0,0,3d5,0,0,0,3l,0,0,0,3s,0,0,0
+16d2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+>
+4l,0,0,0,s,0,3l,0,0,0,2s,0,2m,0,2r,0
+16m2,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
 NAME finale fanfare
 KEY C,D,E,F,G,A,B d,r,m,s,l
-TMP XFST
-SQR P2 P8
+TMP MED
+SQR P4 P2
 ARP INT8
 
 TUNE 2
@@ -736,11 +1387,18 @@ NAME rhythmic ruins
 TMP MED
 SQR P4 P4
 
+TUNE 4
+3F5,0,0,A#,0,2C#5,0,A#,3F5,0,0,F#5,0,0,2F5,0
+A3,C#,F,0,0,F,C#,F,A#3,C#,F,A#,0,A#,C#,F#
+NAME Slow
+TMP SLW
+SQR P2 P2
+
 BLIP 1
 E5,B5,B5
-NAME meow
-ENV 40 99 4 185 138
-BEAT 61 115
+NAME END
+ENV 40 99 4 89 138
+BEAT 32 115
 SQR P2
 
 BLIP 2
@@ -748,5 +1406,12 @@ D5,E5,D5
 NAME pick up key
 ENV 99 65 6 96 152
 BEAT 95 0
+SQR P4
+
+BLIP 3
+E5,C5,C
+NAME pick up 1
+ENV 79 113 3 75 112
+BEAT 32 0
 SQR P4
 
